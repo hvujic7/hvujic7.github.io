@@ -1,0 +1,31 @@
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0066CC;
+    text-align: center;
+  }
+
+#epicface {
+    width: 10%;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(0deg);
+    transition: transform 0.5s;
+}
+
+#epicface:hover {
+    transform: rotate(360deg); /* rotate 360 degrees on hover */
+  }
+
+body {
+    font-family: 'Rubik Vinyl';font-size: 22px;
+}
+
+@font-face {
+    font-family: 'Rubik Vinyl';
+    src: url('fonts/RubikVinyl-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
